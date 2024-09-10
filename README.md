@@ -5,7 +5,7 @@
 
 ### Description
 
-A Kotlin Spring Boot API backend to record highscores. It allows users to sign up, log in with JWT, record their game scores, view leaderboards, and manage privacy settings.
+A Kotlin Spring Boot API backend to record high scores. It allows users to sign up, log in with JWT, record their game scores, view leaderboards, and manage privacy settings.
 
 ### Requirements
 
@@ -14,7 +14,7 @@ A Kotlin Spring Boot API backend to record highscores. It allows users to sign u
 
 
 ---
-### Dependncy
+### Dependency
 
 - **Spring Boot 3.3.3**
 - **Kotlin**
@@ -26,7 +26,7 @@ A Kotlin Spring Boot API backend to record highscores. It allows users to sign u
 
 ---
 
-### How to Build and Run the Application
+### Build and Run the Application
 
 1. **Clone the repository**:
    ```bash
@@ -45,6 +45,15 @@ A Kotlin Spring Boot API backend to record highscores. It allows users to sign u
    ```
 
    The application will start at `http://localhost:8080`.
+---
+
+### Running Automated Tests
+
+To run tests for the application:
+
+```bash
+./gradlew test
+```
 
 ---
 
@@ -157,15 +166,5 @@ A Kotlin Spring Boot API backend to record highscores. It allows users to sign u
 
 - **GET /api/game/download**  
   _Provides a page or link to download the game._
-
----
-
-### Running Tests
-
-To run tests for the application:
-
-```bash
-./gradlew test
-```
 
 ---
